@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_gallery" android:title="Gallery"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+    <item android:id="@+id/menu_send" android:title="Send"
+        android:icon="@android:drawable/ic_menu_send"/>
+<!--   sub menu 를 통한 구분선 효과-->
+    <item android:title="Your  Account">
+        <menu>
+            <item android:id="@+id/address" android:title="Address"/>
+            <item android:id="@+id/number" android:title="Number"/>
+        </menu>
+    </item>
+
+</menu>
